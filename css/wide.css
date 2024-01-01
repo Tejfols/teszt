@@ -1,0 +1,100 @@
+
+
+@media screen and (min-width: 1444px) {
+    .footer-wave {
+        background-size: cover;
+        background-position: top;
+    }
+    .footer-content {
+        max-width: unset;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .header-wave {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1950px) {
+    .header-wave {
+        height: 350px;
+    }
+    .main {
+        margin-top: 125px;
+    }
+    .footer-wave {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 2700px) {
+    .header-wave {
+        height: 400px;
+    }
+    .main {
+        margin-top: 135px;
+    }
+}
+
+@media screen and (min-width: 3200px) {
+    .header-wave {
+        height: 420px;
+    }
+    .footer-wave {
+        height: 460px;
+    }
+}
+
+@media screen and (min-width: 3800px) {
+    .header-wave {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 4000px) {
+    .footer-wave {
+        height: 540px;
+    }
+}
+
+@media screen and (min-width: 4300px) {
+    .header-wave {
+        height: 480px;
+    }
+}
+@media screen and (min-width: 4900px) {
+    .header-wave {
+        height: 500px;
+    }
+}
+@media screen and (min-width: 5200px) {
+    .header-wave {
+        height: 520px;
+    }
+    .footer-wave {
+        width: 110%;
+        height: 600px;
+    }
+}
+@media screen and (min-width: 5700px) {
+    .header-wave {
+        height: 540px;
+    }
+}
+@media screen and (min-width: 6100px) {
+    .header-wave {
+        height: 570px;
+    }
+}
+
+/*
+.header-wave {
+    width: 1444px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -20px;
+    height: 260px;
+}
+*/

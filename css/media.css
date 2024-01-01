@@ -1,0 +1,447 @@
+
+@media screen and (max-width: 1450px) {
+    .why {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .bone .item:nth-child(1) {
+        left: 195px;
+        top: -216px;
+    }
+    .bone .item:nth-child(2) {
+        left: 536px;
+        top: -112px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .main .bg-2 {
+        right: -180px;
+    }
+    .main .circle {
+        left: -371px;
+        top: -59px;
+    }
+    .main .bg-1 {
+        left: 123px;
+    }
+    .main .image {
+        width: 400px;
+    }
+    .header-wave {
+        width: 100%;
+        margin: unset;
+        left: unset;
+        right: unset;
+        top: unset;
+        height: 210px;
+    }
+    .main .bg-3 {
+        left: 22px;
+        bottom: -90px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .why .list {
+        width: 100%;
+        gap: unset;
+        justify-content: space-around;
+    }
+    .why .item {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .bone .item:nth-child(1) {
+        left: 195px;
+        top: -216px;
+    }
+    .bone .item:nth-child(2) {
+        left: 536px;
+        top: -112px;
+    }
+    .bone .item p:nth-child(2) {
+        font-size: 32px;
+    }
+    .bone .item {
+        padding: 25px 20px 35px 20px;
+        gap: 20px;
+    }
+    footer .content {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header nav {
+        display: none;
+    }
+    header .get {
+        display: none;
+    }
+    header .menu {
+        display: flex;
+    }
+
+    .main {
+        flex-direction: column;
+        gap: 130px;
+        margin-top: 130px;
+        padding-bottom: 100px;
+    }
+    .logo {
+        width: 74px;
+        max-height: 74px;
+    }
+    header .wave-text {
+        top: 100px;
+    }
+    .header-wave {
+        height: 168px;
+    }
+    header {
+        padding-top: 16px;
+    }
+    .main .info {
+        position: unset;
+    }
+
+    .main .circle {
+        display: none;
+    }
+    .main .bg-1 {
+        left: unset;
+        right: 20px;
+    }
+    .main .bg-2 {
+        left: 86px;
+        right: unset;
+        bottom: 255px;
+        top: unset;
+    }
+    .main .bg-3 {
+        left: 86px;
+        right: unset;
+        bottom: 611px;
+    }
+    .main .title {
+        text-align: center;
+        font-size: 72px;
+    }
+    .main .text {
+        text-align: center;
+    }
+    .main .arc-1 {
+        display: block;
+        right: -278px;
+        top: -45px;
+    }
+    .main .arc-2 {
+        display: block;
+        left: -233px;
+        bottom: 642px;
+    }
+
+    .why .list {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .why .list .item {
+        width: 330px;
+    }
+    .why .title {
+        font-size: 72px;
+    }
+    .moonmap .title p {
+        font-size: 72px;
+    }
+    .moonmap .title {
+        width: 350px;
+    }
+    .moonmap .title img {
+        width: 40px;
+    }
+    .why {
+        padding-top: 260px;
+        padding-bottom: 210px;
+        margin-bottom: 30px;
+    }
+
+
+    .slide-container {
+        width: auto;
+        height: auto;
+        padding-top: 50px;
+    }
+    .sticky-container {
+        position: unset;
+        top: unset;
+    }
+
+    .moonmap {
+        padding-top: 0;
+    }
+    .moonmap .list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .moonmap .item {
+        opacity: 1;
+        position: relative;
+        top: unset;
+        right: unset;
+    }
+    .moonmap-content {
+        height: auto;
+        padding-bottom: 400px;
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .moonmap .content {
+        justify-content: center;
+        padding-top: 0;
+    }
+
+
+    .bone .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .bone .item {
+        position: unset;
+        left: unset!important;
+        top: unset!important;
+        max-width: 330px;
+    }
+
+    footer .content {
+        flex-direction: column;
+        gap: 50px;
+    }
+    footer .links {
+        max-width: 350px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-wave {
+        background: url(../images/footer-wave-2.png);
+        background-position: top;
+        background-size: 110%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .moonmap-content {
+        padding-bottom: 330px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main .bg-2 {
+        left: 50px;
+        width: 140px;
+    }
+    .moonmap-content {
+        padding-bottom: 300px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .why .title {
+        text-align: center;
+        font-size: 64px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .moonmap .title {
+        width: 310px;
+    }
+    .moonmap .title p {
+        font-size: 64px;
+    }
+    .moonmap .title img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main .bg-2 {
+        left: 40px;
+        width: 120px;
+    }
+    .moonmap-content {
+        padding-bottom: 270px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-wave {
+        top: -10px;
+    }
+    .main .image {
+        width: 350px;
+    }
+    .main .bg-2 {
+        left: 40px;
+        width: 90px;
+    }
+    .main .bg-3 {
+        bottom: 536px;
+    }
+    .main .arc-2 {
+        bottom: 582px;
+    }
+    .why .title {
+        font-size: 62px;
+    }
+    .moonmap .title p {
+        font-size: 62px;
+    }
+    .moonmap .title {
+        width: 292px;
+    }
+    .moonmap .title img {
+        width: 30px;
+    }
+    .why-bg-1 {
+        width: 74px;
+    }
+    .moonmap-content {
+        padding-bottom: 250px;
+    }
+    .slide-container {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .main .links {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main .image {
+        width: 250px;
+    }
+
+    .main .bg-3 {
+        bottom: 430px;
+    }
+
+    .main .bg-2 {
+        bottom: 214px;
+    }
+    .main .arc-2 {
+        bottom: 477px;
+    }
+    .moonmap-content {
+        background-position: left bottom;
+        background-size: 200%;
+        padding-bottom: 550px;
+    }
+
+    .bone-image {
+        width: 140%;
+        margin-left: -20%;
+    }
+
+    .bone-bg-1 {
+        display: none;
+    }
+    .bone-bg-2 {
+        display: none;
+    }
+    .bone-bg-3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main .title {
+        font-size: 62px;
+    }
+    .main .image {
+        width: 168px;
+    }
+
+    .main .bg-3 {
+        bottom: 311px;
+    }
+    .main .bg-2 {
+        width: 69px;
+        bottom: 169px;
+    }
+    .main .arc-2 {
+        bottom: 351px;
+    }
+    .moonmap-content {
+        padding-bottom: 500px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .moonmap-content {
+        padding-bottom: 450px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main .title {
+        font-size: 54px;
+    }
+    .moonmap-content {
+        padding-bottom: 430px;
+    }
+    .moonmap .title p {
+        font-size: 54px;
+    }
+    .moonmap .title {
+        width: 250px;
+    }
+    .moonmap .title img {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .main .title {
+        font-size: 48px;
+    }
+    .main .bg-2 {
+        left: 20px;
+    }
+    .why .list .item {
+        width: 95%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .why .title {
+        font-size: 58px;
+    }
+    .moonmap .title p {
+        font-size: 58px;
+    }
+    .moonmap-content {
+        padding-bottom: 400px;
+    }
+    .moonmap .item {
+        width: 95%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}

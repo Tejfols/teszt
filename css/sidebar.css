@@ -1,0 +1,87 @@
+.sidebar {
+    width: 100%;
+    min-height: 100vh;
+    background: #E1BBFF;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.sidebar .close {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar .close img {
+    width: 50px;
+    height: 50px;
+}
+
+.sidebar .bg-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 145px;
+}
+
+.sidebar nav a {
+    color: var(--text, #52003B);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sidebar .links {
+    position: absolute;
+    bottom: 69px;
+    width: 100%;
+    max-width: 341px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    row-gap: 20px;
+    column-gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sidebar .links a {
+    width: 70px;
+    max-height: 70px;
+}
+
+@media screen and (max-height: 650px) {
+    .sidebar nav {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .sidebar .links {
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-height: 480px) {
+    .sidebar nav {
+        gap: 30px;
+    }
+}
